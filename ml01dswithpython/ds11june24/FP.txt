@@ -1,0 +1,75 @@
+   An enterprise that decides to use IP addresses out of the address
+   space defined in this document can do so without any coordination
+   with IANA or an Internet registry. The address space can thus be used
+   by many enterprises. Addresses within this private address space will
+   only be unique within the enterprise, or the set of enterprises which
+   choose to cooperate over this space so they may communicate with each
+   other in their own private internet.
+
+   As before, any enterprise that needs globally unique address space is
+   required to obtain such addresses from an Internet registry. An
+   enterprise that requests IP addresses for its external connectivity
+   will never be assigned addresses from the blocks defined above.
+
+   In order to use private address space, an enterprise needs to
+   determine which hosts do not need to have network layer connectivity
+   outside the enterprise in the foreseeable future and thus could be
+   classified as private. Such hosts will use the private address space
+   defined above.  Private hosts can communicate with all other hosts
+   inside the enterprise, both public and private. However, they cannot
+   have IP connectivity to any host outside of the enterprise. While not
+   having external (outside of the enterprise) IP connectivity private
+   hosts can still have access to external services via mediating
+   gateways (e.g., application layer gateways).
+
+   All other hosts will be public and will use globally unique address
+   space assigned by an Internet Registry. Public hosts can communicate
+   with other hosts inside the enterprise both public and private and
+   can have IP connectivity to public hosts outside the enterprise.
+   Public hosts do not have connectivity to private hosts of other
+   enterprises.
+
+   Moving a host from private to public or vice versa involves a change
+   of IP address, changes to the appropriate DNS entries, and changes to
+   configuration files on other hosts that reference the host by IP
+   address.
+
+   Because private addresses have no global meaning, routing information
+   about private networks shall not be propagated on inter-enterprise
+   links, and packets with private source or destination addresses
+   should not be forwarded across such links. Routers in networks not
+   using private address space, especially those of Internet service
+   providers, are expected to be configured to reject (filter out)
+   routing information about private networks. If such a router receives
+   such information the rejection shall not be treated as a routing
+   protocol error.
+
+   Indirect references to such addresses should be contained within the
+   enterprise. Prominent examples of such references are DNS Resource
+   Records and other information referring to internal private
+   addresses. In particular, Internet service providers should take
+   measures to prevent such leakage.
+
+   The obvious advantage of using private address space for the Internet
+   at large is to conserve the globally unique address space by not
+   using it where global uniqueness is not required.
+
+   Enterprises themselves also enjoy a number of benefits from their
+   usage of private address space: They gain a lot of flexibility in
+   network design by having more address space at their disposal than
+   they could obtain from the globally unique pool. This enables
+   operationally and administratively convenient addressing schemes as
+   well as easier growth paths.
+
+   For a variety of reasons the Internet has already encountered
+   situations where an enterprise that has not been connected to the
+   Internet had used IP address space for its hosts without getting this
+   space assigned from the IANA. In some cases this address space had
+   been already assigned to other enterprises. If such an enterprise
+   would later connects to the Internet, this could potentially create
+   very serious problems, as IP routing cannot provide correct
+   operations in presence of ambiguous addressing. Although in principle
+   Internet Service Providers should guard against such mistakes through
+   the use of route filters, this does not always happen in practice.
+   Using private address space provides a safe choice for such
+   enterprises, avoiding clashes once outside connectivity is needed.
