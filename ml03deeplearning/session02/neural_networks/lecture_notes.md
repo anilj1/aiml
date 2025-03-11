@@ -39,26 +39,24 @@
       1. Adjustment of each of the weights at every layer to minimise the loss.   
       2. The weights are adjusted using gradient descent algorithm.   
    10. Gradient descent algorithm
-
-| ![](image6.PNG) | ![](image7.PNG) |
-| :---- | :---- |
-
-       1. Learning rate  
-          1. Used to control the change in weight and bias to reduce error  
-          2. Used to analyze the change in error given the change in weight and bias.  
-          3. Learning rate of 0.01 is considered safe.   
-       2. Slowly adjust the weights so that we reach at the bottom of the curve  
-       3. At the bottom, the prediction is most accurate (i.e., error is minimum)  
-       4. Cost function or error function   
-       5. The slope is calculated gradually (in small steps) to reach the optimal point.   
-       6. Everytime we bring it down, we perform a forward and backward propagation.   
-       7. The number of attempts to bring it to optimal point is by trial-error method   
+       | ![](image6.PNG) | ![](image7.PNG) |
+       | :---- | :---- |
+      1. Learning rate  
+         1. Used to control the change in weight and bias to reduce error  
+         2. Used to analyze the change in error given the change in weight and bias.  
+         3. Learning rate of 0.01 is considered safe.   
+      2. Slowly adjust the weights so that we reach at the bottom of the curve  
+      3. At the bottom, the prediction is most accurate (i.e., error is minimum)  
+      4. Cost function or error function   
+      5. The slope is calculated gradually (in small steps) to reach the optimal point.   
+      6. Everytime we bring it down, we perform a forward and backward propagation.   
+      7. The number of attempts to bring it to optimal point is by trial-error method   
    11. Simplified version of a neural network   
        ![](image8.PNG)
-       1. Neuron performs a weighted sum of the input features \+ bias   
-       2. Output performs the y^ (predicted value) i.e. sigmoid function to the weighted sum.  
-       3. Note that y^ is the predicted value and y is the actual value.  
-       4.   
+      1. Neuron performs a weighted sum of the input features \+ bias   
+      2. Output performs the y^ (predicted value) i.e. sigmoid function to the weighted sum.  
+      3. Note that y^ is the predicted value and y is the actual value.  
+      4.   
 5. TBD  
 6. TBD  
 7. Variants of gradient descent (1:16:10)  
