@@ -49,7 +49,7 @@ Lecture 03: Deep Neural Networks
    1. When an image is provided, it is broken down into different types of features  
       1. First layer: determine edges: horizontal, vertical, etc.   
       2. Face: eyes, eyebrows, lips   
-5.   
+5. None.
 6. Tensor flow (30:00:00)  
    1. Tensor is a generic names for arrays. 1-D arrays (scalers), 2+D arrays (vectors)  
    2. Highly optimized data structure.   
@@ -67,7 +67,7 @@ Lecture 03: Deep Neural Networks
       4. Large user community   
 7. Tensor flow lab (39:00:00)  
    1. NN are sensitive to scaling so it is mandatory to do scaling. (53:40:00)  
-   2. See the the coding file. 
+   2. [Click here to see the demo code of this lecuture](https://github.com/anilj1/aiml/blob/master/ml03deeplearning/session03/diabetes/Deep%20Learning%20with%20Keras%20-%20Diabetes%2014Jan2023.ipynb)
 8. Types of loss function (2:47:00)  
    1. What is the loss function?   
       1. Difference between the actual and predicted value   
