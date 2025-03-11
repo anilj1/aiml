@@ -98,7 +98,7 @@ Background on AI and ML
          3. Generating a picture from a text prompt   
          4. Finding fraudulent transactions from thousands of transacitons.   
    3. Deep learning neuron model   
-      ![png][https://github.com/anilj1/aiml/blob/master/ml03deeplearning/session01/intro_to_deep_learning/image1.PNG]  
+      ![png](https://github.com/anilj1/aiml/blob/master/ml03deeplearning/session01/intro_to_deep_learning/image1.PNG)
       1. Input layer with features as input data   
          1. Each circle on the input layer denotes a specific type of data / feature. The data could be of any type.   
       2. Hidden layers with multiple neurons in each layer  
@@ -119,7 +119,7 @@ Background on AI and ML
    6. Performance of a NN model depends on the data size   
       1. Performance (time complexity and accuracy of the output)
 
-      ![png][https://github.com/anilj1/aiml/blob/master/ml03deeplearning/session01/intro_to_deep_learning/image2.PNG]
+      ![png](https://github.com/anilj1/aiml/blob/master/ml03deeplearning/session01/intro_to_deep_learning/image2.PNG)
 
       2. Number of records   
       3. Complexity of the data (tabular vs audio/video data)  
